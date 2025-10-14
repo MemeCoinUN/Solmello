@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Solmello (SLM) — Calm Glow on Solana</title>
+<meta name="description" content="Solmello (SLM) — calm energy on Solana. Be mellow. Stay solid.">
+<meta name="theme-color" content="#0B1020" />
+<style>
+:root{
+  --sol-teal:#14F195; --sol-aqua:#00FFA3; --sol-purple:#9945FF;
+  --bg1:#061228; --bg2:#23135b; --text:#eaf2ff; --muted:#b7c7ff;
+  --card:#0b1e3acc; --stroke:#1c2a56;
+}
+*{box-sizing:border-box} html,body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);
+  background:
+    radial-gradient(60% 60% at 20% 10%, rgba(20,241,149,.18), transparent 60%),
+    radial-gradient(60% 60% at 80% 90%, rgba(0,255,163,.14), transparent 60%),
+    linear-gradient(135deg, var(--bg1), var(--bg2));
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:22px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border-radius:14px;border:0;cursor:pointer;
+  background:linear-gradient(90deg,var(--sol-teal),var(--sol-purple) 60%,var(--sol-aqua)); color:#031020;font-weight:900;
+  box-shadow:0 10px 28px rgba(153,69,255,.25)
+}
+.btn.ghost{background:transparent;border:1px solid #29407e;color:#e9f1ff}
+.btn.pill{border-radius:999px} .btn.small{padding:9px 14px}
+
+.nav{position:sticky;top:0;z-index:10;background:rgba(5,16,40,.65);backdrop-filter:blur(12px);border-bottom:1px solid #0f1a2f}
+.nav .row{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.2px}
+.badge{display:inline-block;padding:6px 10px;border-radius:10px;border:1px solid rgba(153,69,255,.4);
+  background:linear-gradient(90deg, rgba(20,241,149,.12), rgba(153,69,255,.12)); font-size:13px}
+
+.hero{padding:56px 0}
+.panel{background:linear-gradient(180deg, rgba(6,17,34,.62), rgba(6,17,34,.38)); border:1px solid #1a2a4a; border-radius:20px; padding:26px}
+.tag{display:inline-flex;gap:10px;padding:7px 12px;border-radius:999px;border:1px solid rgba(153,69,255,.4);
+     background:rgba(153,69,255,.16);color:#ebdeff;font-size:14px}
+h1{font-size:52px;line-height:1.02;margin:14px 0 10px; letter-spacing:.2px}
+h1 .sol{background:linear-gradient(90deg,var(--sol-teal),var(--sol-aqua));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--muted);font-size:18px;margin:0 0 18px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0}
+.specs{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;color:#d3dcff;font-size:14px}
+.copy{padding:6px 10px;border:1px solid #29407e;background:#0a1730;color:#e7f1ff;border-radius:8px;cursor:pointer}
+
+.section{padding:42px 0}
+.h2{font-size:28px;margin:0 0 12px} 
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:var(--card);border:1px solid var(--stroke);border-radius:16px;padding:18px}
+
+.foot{border-top:1px solid #0f1a2f;background:rgba(6,13,26,.8);margin-top:30px}
+.foot .row{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.foot small{color:#8aa0d1}
+
+@media (max-width:980px){ .grid3{grid-template-columns:1fr} h1{font-size:42px} }
+@media (max-width:560px){ .nav-links{display:none} h1{font-size:34px} }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="wrap row">
+    <div class="row" style="display:flex;align-items:center;gap:12px">
+      <div class="brand">
+        <span style="background:linear-gradient(90deg,var(--sol-teal),var(--sol-purple),var(--sol-aqua));-webkit-background-clip:text;color:transparent;">Solmello</span>
+        <b>(SLM)</b>
+      </div>
+      <span class="badge">Solana • Community</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#how">How to Buy</a>
+      <a href="#roadmap">Roadmap</a>
+      <a class="btn small pill" target="_blank" href="https://x.com/solmello111?s=21">X</a>
+      <a class="btn small pill" target="_blank" href="https://t.me/solmello111">TG</a>
+      <a class="btn small pill" target="_blank" href="https://moonshot.com/2JezQkEfDzF2wExtySZtBg1LCya8bm8dPEYBGGX3moon?ref=ADJoht">Buy $SLM</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="panel">
+      <span class="tag">The chillest glow on Solana</span>
+      <h1><span class="sol">Sol</span>mello <span style="opacity:.9">(SLM)</span></h1>
+      <p class="sub">No noise. No rush. Just flow. Calm energy on Solana.</p>
+      <div class="cta-row">
+        <a class="btn pill" target="_blank" href="https://moonshot.com/2JezQkEfDzF2wExtySZtBg1LCya8bm8dPEYBGGX3moon?ref=ADJoht">Buy on Moonshot</a>
+        <a class="btn ghost pill" target="_blank" href="https://dexscreener.com/solana?query=2JezQkEfDzF2wExtySZtBg1LCya8bm8dPEYBGGX3moon">Chart</a>
+        <a class="btn ghost pill" target="_blank" href="https://x.com/solmello111?s=21">Follow on X</a>
+        <a class="btn ghost pill" target="_blank" href="https://t.me/solmello111">Join Telegram</a>
+      </div>
+      <div class="specs">
+        <div><strong>Ticker:</strong> SLM</div>
+        <div><strong>Chain:</strong> Solana</div>
+        <div><strong>Contract:</strong> <code id="ca">2JezQkEfDzF2wExtySZtBg1LCya8bm8dPEYBGGX3moon</code>
+          <button class="copy" data-copy="#ca">Copy</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="wrap">
+    <div class="card">
+      <h3 class="h2">About</h3>
+      <p style="color:var(--muted);font-size:18px;line-height:1.65">
+        Solmello ($SLM) is the composure play on Solana — a visual-first brand built to stay calm when the market spins.
+        Be mellow. Stay solid. Chill mode on.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO BUY -->
+<section id="how" class="section">
+  <div class="wrap">
+    <h3 class="h2">How to Buy</h3>
+    <div class="grid3">
+      <div class="card"><b>1) Wallet</b><br>Install <u>Phantom</u> (mobile or extension).</div>
+      <div class="card"><b>2) Fund</b><br>Add <u>SOL</u> via on-ramp or exchange.</div>
+      <div class="card"><b>3) Swap</b><br>Open <u>Moonshot</u> and paste the contract. Confirm.</div>
+    </div>
+    <div class="cta-row" style="margin-top:14px">
+      <a class="btn pill" target="_blank" href="https://moonshot.com/2JezQkEfDzF2wExtySZtBg1LCya8bm8dPEYBGGX3moon?ref=ADJoht">Open Moonshot</a>
+      <a class="btn ghost pill" target="_blank" href="https://t.me/solmello111">Join TG</a>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section id="roadmap" class="section">
+  <div class="wrap">
+    <h3 class="h2">Mini Roadmap</h3>
+    <div class="grid3">
+      <div class="card"><b>Phase 1</b><br>Identity • PFPs • Site v1 • Launch</div>
+      <div class="card"><b>Phase 2</b><br>Listings • Collabs • “Mello Moments” weekly</div>
+      <div class="card"><b>Phase 3</b><br>Merch capsule • Mini experience drop</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="foot">
+  <div class="wrap row">
+    <div class="row" style="display:flex;align-items:center;gap:10px">
+      <span style="display:inline-block;width:22px;height:16px;background:linear-gradient(90deg,var(--sol-teal),var(--sol-purple),var(--sol-aqua)); clip-path:polygon(0 25%, 70% 25%, 100% 45%, 30% 45%, 0 65%);"></span>
+      <strong>Solmello (SLM)</strong>
+    </div>
+    <small>© Solmello. Community token; no intrinsic value or expectation of profit. Not financial advice.</small>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll(".copy").forEach(function(btn){
+  btn.addEventListener("click", function(){
+    var el = document.querySelector(btn.getAttribute("data-copy"));
+    navigator.clipboard.writeText(el.textContent.trim());
+    btn.textContent = "Copied!";
+    setTimeout(function(){ btn.textContent = "Copy"; }, 1200);
+  });
+});
+</script>
+</body>
+</html>
